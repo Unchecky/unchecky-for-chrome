@@ -1,0 +1,12 @@
+{
+	"name": "Unchecky for Chrome",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "Unchecky for Chrome",
+	"content_scripts": [
+		{
+			"matches": ["*://get.adobe.com/*"],
+			"js": ["unchecky.js"]
+		}
+	]
+}
