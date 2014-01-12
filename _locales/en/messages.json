@@ -1,0 +1,8 @@
+{
+	"description": {
+		"message": "Unchecks offers of potentially unwanted programs on the web"
+	},
+	"warning": {
+		"message": "You are about to install a potentially unwanted program. Are you sure you want to proceed?"
+	}
+}

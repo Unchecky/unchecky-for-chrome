@@ -1,8 +1,14 @@
 {
-	"name": "Unchecky for Chrome",
-	"version": "0.0.1",
 	"manifest_version": 2,
-	"description": "Unchecky for Chrome",
+	"name": "Unchecky for Chrome",
+	"version": "0.2.3",
+	
+	"description": "__MSG_description__",
+	"default_locale": "en",
+	"icons": { "16": "icon16.png",
+			   "48": "icon48.png",
+			  "128": "icon128.png" },
+	
 	"content_scripts": [
 		{
 			"matches": ["*://get.adobe.com/*"],
