@@ -34,7 +34,9 @@
 				}
 				ck.addEventListener("click", function(evt){ //warn user if manually clicks
 					if(ck.checked && !confirm(warning_message)){
-						evt.preventDefault();
+						setTimeout(function(){ //allow the browser to process the event before clicking again
+							ck.click();
+						}, 1);
 					}
 				}, false);
 			}
