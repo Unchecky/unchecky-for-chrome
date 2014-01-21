@@ -1,0 +1,8 @@
+{
+	"description": {
+		"message": "Disattiva le offerte dei programmi potenzialmente non voluti, nel web"
+	},
+	"warning": {
+		"message": "Stai per installare un programma potenzialmente non voluto. Sei sicuro di voler continuare?"
+	}
+}
